@@ -4576,7 +4576,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.dpm.api@1.0",
+	name: "com.qualcomm.qti.dpm.api@1.0_vendor",
+	stem: "com.qualcomm.qti.dpm.api@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -4593,7 +4594,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.imscmservice@1.0",
+	name: "com.qualcomm.qti.imscmservice@1.0_vendor",
+	stem: "com.qualcomm.qti.imscmservice@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -4610,7 +4612,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.imscmservice@2.0",
+	name: "com.qualcomm.qti.imscmservice@2.0_vendor",
+	stem: "com.qualcomm.qti.imscmservice@2.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -4627,7 +4630,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.imscmservice@2.1",
+	name: "com.qualcomm.qti.imscmservice@2.1_vendor",
+	stem: "com.qualcomm.qti.imscmservice@2.1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -4644,7 +4648,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.imscmservice@2.2",
+	name: "com.qualcomm.qti.imscmservice@2.2_vendor",
+	stem: "com.qualcomm.qti.imscmservice@2.2",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -4661,7 +4666,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.uceservice@2.0",
+	name: "com.qualcomm.qti.uceservice@2.0_vendor",
+	stem: "com.qualcomm.qti.uceservice@2.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -4678,7 +4684,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.uceservice@2.1",
+	name: "com.qualcomm.qti.uceservice@2.1_vendor",
+	stem: "com.qualcomm.qti.uceservice@2.1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -4695,7 +4702,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.uceservice@2.2",
+	name: "com.qualcomm.qti.uceservice@2.2_vendor",
+	stem: "com.qualcomm.qti.uceservice@2.2",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -4712,7 +4720,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.uceservice@2.3",
+	name: "com.qualcomm.qti.uceservice@2.3_vendor",
+	stem: "com.qualcomm.qti.uceservice@2.3",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -6891,7 +6900,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.factory@2.0",
+	name: "vendor.qti.data.factory@2.0_vendor",
+	stem: "vendor.qti.data.factory@2.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -6908,7 +6918,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.factory@2.1",
+	name: "vendor.qti.data.factory@2.1_vendor",
+	stem: "vendor.qti.data.factory@2.1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -6925,7 +6936,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.factory@2.2",
+	name: "vendor.qti.data.factory@2.2_vendor",
+	stem: "vendor.qti.data.factory@2.2",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -6942,7 +6954,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.factory@2.3",
+	name: "vendor.qti.data.factory@2.3_vendor",
+	stem: "vendor.qti.data.factory@2.3",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -6959,7 +6972,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.mwqem@1.0",
+	name: "vendor.qti.data.mwqem@1.0_vendor",
+	stem: "vendor.qti.data.mwqem@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -6976,7 +6990,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.slm@1.0",
+	name: "vendor.qti.data.slm@1.0_vendor",
+	stem: "vendor.qti.data.slm@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7146,7 +7161,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.cne.internal.api@1.0",
+	name: "vendor.qti.hardware.data.cne.internal.api@1.0_vendor",
+	stem: "vendor.qti.hardware.data.cne.internal.api@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7163,7 +7179,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.cne.internal.constants@1.0",
+	name: "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor",
+	stem: "vendor.qti.hardware.data.cne.internal.constants@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7180,7 +7197,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.cne.internal.server@1.0",
+	name: "vendor.qti.hardware.data.cne.internal.server@1.0_vendor",
+	stem: "vendor.qti.hardware.data.cne.internal.server@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7197,7 +7215,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.connection@1.0",
+	name: "vendor.qti.hardware.data.connection@1.0_vendor",
+	stem: "vendor.qti.hardware.data.connection@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7214,7 +7233,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.connection@1.1",
+	name: "vendor.qti.hardware.data.connection@1.1_vendor",
+	stem: "vendor.qti.hardware.data.connection@1.1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7231,7 +7251,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.dynamicdds@1.0",
+	name: "vendor.qti.hardware.data.dynamicdds@1.0_vendor",
+	stem: "vendor.qti.hardware.data.dynamicdds@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7248,7 +7269,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.iwlan@1.0",
+	name: "vendor.qti.hardware.data.iwlan@1.0_vendor",
+	stem: "vendor.qti.hardware.data.iwlan@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7265,7 +7287,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.latency@1.0",
+	name: "vendor.qti.hardware.data.latency@1.0_vendor",
+	stem: "vendor.qti.hardware.data.latency@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7282,7 +7305,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.lce@1.0",
+	name: "vendor.qti.hardware.data.lce@1.0_vendor",
+	stem: "vendor.qti.hardware.data.lce@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7299,7 +7323,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.qmi@1.0",
+	name: "vendor.qti.hardware.data.qmi@1.0_vendor",
+	stem: "vendor.qti.hardware.data.qmi@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7316,7 +7341,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.mwqemadapter@1.0",
+	name: "vendor.qti.hardware.mwqemadapter@1.0_vendor",
+	stem: "vendor.qti.hardware.mwqemadapter@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7350,7 +7376,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.am@1.0",
+	name: "vendor.qti.hardware.radio.am@1.0_vendor",
+	stem: "vendor.qti.hardware.radio.am@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7367,7 +7394,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.0",
+	name: "vendor.qti.hardware.radio.ims@1.0_vendor",
+	stem: "vendor.qti.hardware.radio.ims@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7384,7 +7412,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.1",
+	name: "vendor.qti.hardware.radio.ims@1.1_vendor",
+	stem: "vendor.qti.hardware.radio.ims@1.1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7401,7 +7430,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.2",
+	name: "vendor.qti.hardware.radio.ims@1.2_vendor",
+	stem: "vendor.qti.hardware.radio.ims@1.2",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7418,7 +7448,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.3",
+	name: "vendor.qti.hardware.radio.ims@1.3_vendor",
+	stem: "vendor.qti.hardware.radio.ims@1.3",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7435,7 +7466,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.4",
+	name: "vendor.qti.hardware.radio.ims@1.4_vendor",
+	stem: "vendor.qti.hardware.radio.ims@1.4",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7452,7 +7484,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.5",
+	name: "vendor.qti.hardware.radio.ims@1.5_vendor",
+	stem: "vendor.qti.hardware.radio.ims@1.5",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7469,7 +7502,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.6",
+	name: "vendor.qti.hardware.radio.ims@1.6_vendor",
+	stem: "vendor.qti.hardware.radio.ims@1.6",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7520,7 +7554,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.lpa@1.0",
+	name: "vendor.qti.hardware.radio.lpa@1.0_vendor",
+	stem: "vendor.qti.hardware.radio.lpa@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7554,7 +7589,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qcrilhook@1.0",
+	name: "vendor.qti.hardware.radio.qcrilhook@1.0_vendor",
+	stem: "vendor.qti.hardware.radio.qcrilhook@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7571,7 +7607,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@1.0",
+	name: "vendor.qti.hardware.radio.qtiradio@1.0_vendor",
+	stem: "vendor.qti.hardware.radio.qtiradio@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7588,7 +7625,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@2.0",
+	name: "vendor.qti.hardware.radio.qtiradio@2.0_vendor",
+	stem: "vendor.qti.hardware.radio.qtiradio@2.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7605,7 +7643,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@2.1",
+	name: "vendor.qti.hardware.radio.qtiradio@2.1_vendor",
+	stem: "vendor.qti.hardware.radio.qtiradio@2.1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7622,7 +7661,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@2.2",
+	name: "vendor.qti.hardware.radio.qtiradio@2.2_vendor",
+	stem: "vendor.qti.hardware.radio.qtiradio@2.2",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7639,7 +7679,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@2.3",
+	name: "vendor.qti.hardware.radio.qtiradio@2.3_vendor",
+	stem: "vendor.qti.hardware.radio.qtiradio@2.3",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7656,7 +7697,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@2.4",
+	name: "vendor.qti.hardware.radio.qtiradio@2.4_vendor",
+	stem: "vendor.qti.hardware.radio.qtiradio@2.4",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7673,7 +7715,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim@1.0",
+	name: "vendor.qti.hardware.radio.uim@1.0_vendor",
+	stem: "vendor.qti.hardware.radio.uim@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7690,7 +7733,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim@1.1",
+	name: "vendor.qti.hardware.radio.uim@1.1_vendor",
+	stem: "vendor.qti.hardware.radio.uim@1.1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7707,7 +7751,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim@1.2",
+	name: "vendor.qti.hardware.radio.uim@1.2_vendor",
+	stem: "vendor.qti.hardware.radio.uim@1.2",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7724,7 +7769,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim_remote_client@1.0",
+	name: "vendor.qti.hardware.radio.uim_remote_client@1.0_vendor",
+	stem: "vendor.qti.hardware.radio.uim_remote_client@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7741,7 +7787,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim_remote_client@1.1",
+	name: "vendor.qti.hardware.radio.uim_remote_client@1.1_vendor",
+	stem: "vendor.qti.hardware.radio.uim_remote_client@1.1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7758,7 +7805,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim_remote_client@1.2",
+	name: "vendor.qti.hardware.radio.uim_remote_client@1.2_vendor",
+	stem: "vendor.qti.hardware.radio.uim_remote_client@1.2",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7775,7 +7823,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim_remote_server@1.0",
+	name: "vendor.qti.hardware.radio.uim_remote_server@1.0_vendor",
+	stem: "vendor.qti.hardware.radio.uim_remote_server@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7792,7 +7841,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.slmadapter@1.0",
+	name: "vendor.qti.hardware.slmadapter@1.0_vendor",
+	stem: "vendor.qti.hardware.slmadapter@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7809,7 +7859,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.callcapability@1.0",
+	name: "vendor.qti.ims.callcapability@1.0_vendor",
+	stem: "vendor.qti.ims.callcapability@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7826,7 +7877,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.callinfo@1.0",
+	name: "vendor.qti.ims.callinfo@1.0_vendor",
+	stem: "vendor.qti.ims.callinfo@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7843,7 +7895,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@1.0",
+	name: "vendor.qti.ims.factory@1.0_vendor",
+	stem: "vendor.qti.ims.factory@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7860,7 +7913,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@1.1",
+	name: "vendor.qti.ims.factory@1.1_vendor",
+	stem: "vendor.qti.ims.factory@1.1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7877,7 +7931,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@1.0",
+	name: "vendor.qti.ims.rcsconfig@1.0_vendor",
+	stem: "vendor.qti.ims.rcsconfig@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7894,7 +7949,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@1.1",
+	name: "vendor.qti.ims.rcsconfig@1.1_vendor",
+	stem: "vendor.qti.ims.rcsconfig@1.1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7911,7 +7967,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@2.0",
+	name: "vendor.qti.ims.rcsconfig@2.0_vendor",
+	stem: "vendor.qti.ims.rcsconfig@2.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7928,7 +7985,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@2.1",
+	name: "vendor.qti.ims.rcsconfig@2.1_vendor",
+	stem: "vendor.qti.ims.rcsconfig@2.1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7962,7 +8020,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.imsrtpservice@3.0",
+	name: "vendor.qti.imsrtpservice@3.0_vendor",
+	stem: "vendor.qti.imsrtpservice@3.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7979,7 +8038,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.latency@2.0",
+	name: "vendor.qti.latency@2.0_vendor",
+	stem: "vendor.qti.latency@2.0",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -7996,7 +8056,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.latency@2.1",
+	name: "vendor.qti.latency@2.1_vendor",
+	stem: "vendor.qti.latency@2.1",
 	owner: "sony",
 	strip: {
 		none: true,
@@ -8013,7 +8074,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.somc.hardware.miscta@1.0",
+	name: "vendor.somc.hardware.miscta@1.0_vendor",
+	stem: "vendor.somc.hardware.miscta@1.0",
 	owner: "sony",
 	strip: {
 		none: true,
