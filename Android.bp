@@ -236,6 +236,25 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libdisplayconfig",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary//lib/libdisplayconfig.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary//lib64/libdisplayconfig.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libmdsprpc_system",
 	owner: "sony",
 	strip: {
@@ -247,6 +266,25 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary//lib64/libmdsprpc_system.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libqdMetaData.system",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary//lib/libqdMetaData.system.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary//lib64/libqdMetaData.system.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -2828,6 +2866,69 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "gralloc.msm8998",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/gralloc.msm8998.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/gralloc.msm8998.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "hwcomposer.msm8998",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/hwcomposer.msm8998.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/hwcomposer.msm8998.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "memtrack.msm8998",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/memtrack.msm8998.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/memtrack.msm8998.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "vulkan.msm8998",
 	owner: "sony",
 	strip: {
@@ -3249,6 +3350,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libdrmutils",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libdrmutils.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libdrmutils.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libfastcrc",
 	owner: "sony",
 	strip: {
@@ -3309,6 +3430,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libgpu_tonemapper",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libgpu_tonemapper.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libgpu_tonemapper.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libgpustats",
 	owner: "sony",
 	strip: {
@@ -3320,6 +3461,26 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgpustats.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgrallocutils",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libgrallocutils.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libgrallocutils.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -3469,6 +3630,66 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libqdMetaData",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libqdMetaData.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libqdMetaData.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libqdutils",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libqdutils.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libqdutils.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libqservice",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libqservice.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libqservice.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "librs_adreno",
 	owner: "sony",
 	strip: {
@@ -3500,6 +3721,46 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/librs_adreno_sha1.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsdmcore",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libsdmcore.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libsdmcore.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsdmutils",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libsdmutils.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libsdmutils.so"],
 		},
 	},
 	compile_multilib: "both",

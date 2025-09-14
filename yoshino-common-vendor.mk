@@ -91,7 +91,9 @@ PRODUCT_PACKAGES += \
     libQTEEConnector_system \
     libadsprpc_system \
     libcdsprpc_system \
+    libdisplayconfig \
     libmdsprpc_system \
+    libqdMetaData.system \
     libsdsprpc_system \
     libseccam \
     libsecureui_svcsock_system \
@@ -559,6 +561,9 @@ PRODUCT_PACKAGES += \
     libQTapGLES \
     libq3dtools_adreno \
     libq3dtools_esx \
+    gralloc.msm8998 \
+    hwcomposer.msm8998 \
+    memtrack.msm8998 \
     vulkan.msm8998 \
     libAlacSwDec \
     libApeSwDec \
@@ -580,10 +585,13 @@ PRODUCT_PACKAGES += \
     libcdsprpc \
     libdiag \
     libdisp-aba \
+    libdrmutils \
     libfastcrc \
     libfastcvadsp_stub \
     libfastrpc_utf_stub \
+    libgpu_tonemapper \
     libgpustats \
+    libgrallocutils \
     libgsl \
     libhdcp1prov \
     libhdcp2p2prov \
@@ -591,8 +599,13 @@ PRODUCT_PACKAGES += \
     libminksocket \
     libmm-color-convertor \
     libmm-hdcpmgr \
+    libqdMetaData \
+    libqdutils \
+    libqservice \
     librs_adreno \
     librs_adreno_sha1 \
+    libsdmcore \
+    libsdmutils \
     libvpphvx \
     libCB \
     libOmxDsdDec \
